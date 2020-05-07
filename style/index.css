@@ -1,1 +1,229 @@
 /* Add CSS styling here */
+/*reset goes first*/
+    html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video, button {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    border: 3px solid #c3c3c3;
+    background-color: #bfebe7;
+}
+
+header{
+    width: 100%;
+    background-color: #3e9896;
+    border: 50%;
+    padding: 30px;
+}
+
+h1{
+    color: #5c0faa;
+    font-size: 35px;
+    animation-name: h1;
+    animation-duration: 5s;
+}
+
+@keyframes h1{
+    from{color: #5c0faa;}
+    to {color: #f81212;}
+}
+
+h1:hover{
+    color:#fbb6f4;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 25px;
+    background-color: #3e9896;   
+}
+
+nav a{
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    background-color: #dad4d4;
+    animation-name: flash;
+    animation-duration: 7s;
+}
+
+@keyframes flash{
+from {font-size: 25px }
+to {font-size: 40px}
+}
+
+nav a:hover{
+    background-color: #f81212;
+    color: #c3c3c3;
+}
+
+.about{
+    border: 15px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color: #373535;
+}
+
+.about img{
+  
+  width: 25%;
+  height: 80%;
+  border: 25px;
+  padding: 25px;
+}
+
+.about h2{
+    font-size: 35px;
+    color: #1282d8;
+}
+
+.about div{
+    width: 100%;
+    font-size: 20px;
+    color: #1282d8;
+    padding: 100px;
+}
+
+.about a{
+    
+    padding: 20px;
+    background-color:#dad4d4 ;
+    font-size: 30px;
+    color: #021523;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.about a:hover{
+    background-color: #d43585;
+    color: hsl(268, 63%, 95%)
+}
+
+section.program{
+    border: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.program{    
+    height: auto;
+    text-align: center;
+    color: #054779;
+    font-size: 20px;
+    margin: 0px;
+    padding: 40px;
+    border: 5px;
+    text-align: center;
+}
+
+.first img{  
+    width: 20%;
+    height: auto;
+    margin: 10px;
+    padding: 5px;
+    border: 5px solid #fbb6f4;
+    background-color: white;
+    font-size: 20px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    animation-name: roll;
+    animation-duration: 9s;
+}
+
+@keyframes roll{
+    from {background-color: white; }
+     to {background-color: #4e0d4b;}
+ }
+
+.program div a{
+    color: #021523;
+    align-self: auto;
+    width: 20px;
+    padding: 130px;
+    text-align: justify;
+ }
+ 
+section.program-two{    
+    text-align: center;
+    color: #054779;
+    font-size: 20px;
+    margin: 0px;
+ } 
+
+ .second img{
+    width: 20%;
+    height: auto;
+    border: 5px solid #fbb6f4;
+    background-color: white;
+    font-size: 20px;
+    margin: 15px;
+    padding: 15px; 
+    animation-name: blink;
+    animation-duration: 10s;   
+  }
+
+ @keyframes blink{
+    from {background-color: white; }
+     to {background-color: #d43585;}
+ }
+
+div a{    
+    font-size: 22px;
+    color: #021523;
+    width: 20px;
+    height: auto;
+    padding: 130px;
+    align-self: auto;
+    text-align: justify;
+    line-height: 2;
+
+ }
+
+ footer{
+    font-size: 25px;
+    color: #021523;
+    text-align: center;
+    line-height: 2;
+    background-color: #3e9896;
+    padding: 30px 10px;
+ }
+
+ footer a{
+     border-radius: 10px;
+     background-color: #dad4d4;
+     text-decoration: none; 
+ }
+ 
+
+
+
+    
