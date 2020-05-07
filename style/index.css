@@ -84,7 +84,6 @@ nav a:hover{
 }
 
 .about{
-    width: 100%;
     border: 15px;
     display: flex;
     flex-direction: row;
@@ -113,7 +112,7 @@ nav a:hover{
 }
 
 .about a{
-    width: 100%;
+    
     padding: 20px;
     background-color:#dad4d4 ;
     font-size: 30px;
@@ -128,15 +127,13 @@ nav a:hover{
 }
 
 section.program{
-    width: 100%;
     border: 1px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-.program{
-    width: 100%;
+.program{    
     height: auto;
     text-align: center;
     color: #054779;
@@ -172,12 +169,10 @@ section.program{
     align-self: auto;
     width: 20px;
     padding: 130px;
-    margin: 30px;
     text-align: justify;
  }
  
-section.program-two{
-    width: 100%;
+section.program-two{    
     text-align: center;
     color: #054779;
     font-size: 20px;
@@ -201,22 +196,19 @@ section.program-two{
      to {background-color: #d43585;}
  }
 
-div a{
-    width: 100%;
+div a{    
     font-size: 22px;
     color: #021523;
     width: 20px;
     height: auto;
-    padding: 155px;
+    padding: 130px;
     align-self: auto;
     text-align: justify;
     line-height: 2;
-    margin: 20px;
 
  }
 
  footer{
-    width: 100%;
     font-size: 25px;
     color: #021523;
     text-align: center;
