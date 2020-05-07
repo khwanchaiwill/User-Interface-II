@@ -26,21 +26,23 @@ vertical-align: baseline;
 }
 
 body{
+    font-size: 62.5%;
     width: 100%;
     border: 3px solid #c3c3c3;
     background-color: #bfebe7;
 }
 
-header{
+ header{
     width: 100%;
     background-color: #3e9896;
-    border: 50%;
-    padding: 30px;
-}
+    border: 10%;
+    padding: 10px;
+} 
 
 h1{
+    padding: 0rem 3rem;
     color: #5c0faa;
-    font-size: 35px;
+    font-size: 2.3rem;
     animation-name: h1;
     animation-duration: 5s;
 }
@@ -64,8 +66,8 @@ nav{
 }
 
 nav a{
-    border-radius: 30px;
-    padding: 10px;
+    border-radius: 15px;
+    padding: 15px;
     margin: 10px;
     text-decoration: none;
     background-color: #dad4d4;
@@ -89,36 +91,39 @@ nav a:hover{
     flex-direction: row;
     font-size: 20px;
     color: #373535;
-}
+    padding: 10px;
+} 
 
 .about img{
-  
-  width: 25%;
-  height: 80%;
-  border: 25px;
-  padding: 25px;
+    width: 25%;
+    height: 80%;
+    border: 25px;
+    padding: 25px;
 }
 
 .about h2{
     font-size: 35px;
     color: #1282d8;
+    line-height: 2;
 }
 
 .about div{
     width: 100%;
     font-size: 20px;
     color: #1282d8;
-    padding: 100px;
+    padding: 80px;
+
 }
 
 .about a{
     
-    padding: 20px;
+    padding: 15px;
     background-color:#dad4d4 ;
     font-size: 30px;
     color: #021523;
     border-radius: 10px;
     text-decoration: none;
+    line-height: 2;
 }
 
 .about a:hover{
@@ -222,7 +227,12 @@ div a{
      background-color: #dad4d4;
      text-decoration: none; 
  }
- 
+ /*today project @media*/
+ /* this is for media size 800px*/
+ @media (max-width: 800px){
+
+ }
+
 
 
 
