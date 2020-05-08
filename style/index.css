@@ -21,22 +21,18 @@ font: inherit;
 vertical-align: baseline;  
 }
 
-*{
-    box-sizing: border-box;
-}
 
 body{
-    font-size: 62.5%;
     width: 100%;
-    border: 3px solid #c3c3c3;
+    font-size: 62.5%;    
     background-color: #bfebe7;
 }
 
  header{
-    width: 100%;
-    background-color: #3e9896;
-    border: 10%;
-    padding: 10px;
+    width: 102.5%;
+    background-color: #3e9896; 
+    padding: 1.5rem;
+    
 } 
 
 h1{
@@ -56,8 +52,7 @@ h1:hover{
     color:#fbb6f4;
 }
 
-nav{
-    width: 100%;
+nav{    
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -85,81 +80,84 @@ nav a:hover{
     color: #c3c3c3;
 }
 
-.about{
+section{
     border: 15px;
     display: flex;
-    flex-direction: row;
-    font-size: 20px;
+    flex-direction: row;  
+    font-size: 2.0rem;
     color: #373535;
-    padding: 10px;
 } 
+#intro{
+    display: flex;
+    flex-direction: column;
+}
 
-.about img{
+img{
     width: 25%;
     height: 80%;
-    border: 25px;
-    padding: 25px;
+    border: 2.5rem;
+    padding: 1.8rem;
 }
 
-.about h2{
-    font-size: 35px;
-    color: #1282d8;
+ h2{
+    font-size: 2.5rem;
+    color: #3d4042;
     line-height: 2;
 }
 
-.about div{
-    width: 100%;
-    font-size: 20px;
-    color: #1282d8;
-    padding: 80px;
-
+h2:hover{
+    font-style: italic;
+    color: #260547;
 }
-
-.about a{
-    
-    padding: 15px;
-    background-color:#dad4d4 ;
-    font-size: 30px;
-    color: #021523;
-    border-radius: 10px;
+#info ol{
+    font-size: 2rem;
     text-decoration: none;
-    line-height: 2;
+    padding: 1rem;
+    background-color: #fcc4e0;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+#info a:hover{
+    background-color: #9e2492;
+    color: #d3b0f7;
 }
 
-.about a:hover{
-    background-color: #d43585;
-    color: hsl(268, 63%, 95%)
+#info p{
+    width: 100%;
+    font-size: 1.6rem;
+    color: #1282d8;
+    padding: 0.75rem;
+    font-display: right;
+}
+
+#info1{    
+    flex: initial;
+    width: 100%;
+    font-size: 1.7rem;
+    color: #076d07;
+    padding: 2rem;
+    border: 1rem;    
 }
 
 section.program{
-    border: 1px;
+    width: 102.5%;
+    padding: 1.5rem;
+    background-color:#dad4d4 ;
+    font-size: 30px;
+    color: #021523;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    line-height: 1;  
 }
 
-.program{    
-    height: auto;
-    text-align: center;
-    color: #054779;
-    font-size: 20px;
-    margin: 0px;
-    padding: 40px;
-    border: 5px;
-    text-align: center;
-}
-
-.first img{  
+.program div img{  
     width: 20%;
-    height: auto;
-    margin: 10px;
-    padding: 5px;
-    border: 5px solid #fbb6f4;
+    border: 0.5rem solid #fbb6f4;
     background-color: white;
-    font-size: 20px;
-    margin: 15px;
-    padding: 15px;
-    text-align: center;
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    padding: 1rem;
     animation-name: roll;
     animation-duration: 9s;
 }
@@ -168,72 +166,279 @@ section.program{
     from {background-color: white; }
      to {background-color: #4e0d4b;}
  }
+ .twoview{
+    width: 95%;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.7rem;   
+    margin-left: 0.45rem;
+    
+}
 
-.program div a{
-    color: #021523;
-    align-self: auto;
-    width: 20px;
-    padding: 130px;
-    text-align: justify;
- }
- 
-section.program-two{    
-    text-align: center;
-    color: #054779;
-    font-size: 20px;
-    margin: 0px;
- } 
-
- .second img{
+ .program-two div img{  
     width: 20%;
-    height: auto;
-    border: 5px solid #fbb6f4;
+    border: 0.5rem solid #fbb6f4;
     background-color: white;
-    font-size: 20px;
-    margin: 15px;
-    padding: 15px; 
-    animation-name: blink;
-    animation-duration: 10s;   
-  }
-
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 0.8rem;
+    animation-name:blink;
+    animation-duration: 11s;
+}
  @keyframes blink{
     from {background-color: white; }
-     to {background-color: #d43585;}
+    to {background-color: #4e0d4b;}
  }
 
-div a{    
-    font-size: 22px;
+.fourview{
+    width: 99%;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: space-around;
+ 
+} 
+
+
+ section.program-two{
+    width: 102.5%;
+    padding: 1.5rem;
+    background-color:#dad4d4 ;
+    font-size: 30px;
     color: #021523;
-    width: 20px;
-    height: auto;
-    padding: 130px;
-    align-self: auto;
-    text-align: justify;
-    line-height: 2;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1;  
+     }
 
- }
-
- footer{
-    font-size: 25px;
+footer{
+    width: 102.5%;
+    font-size: 1.8rem;
     color: #021523;
     text-align: center;
     line-height: 2;
     background-color: #3e9896;
-    padding: 30px 10px;
+    padding: 1.5rem;
+    
  }
 
- footer a{
-     border-radius: 10px;
+footer a{
+     border-radius: 0.3rem;
      background-color: #dad4d4;
      text-decoration: none; 
  }
  /*today project @media*/
  /* this is for media size 800px*/
  @media (max-width: 800px){
+body{
+         background-color: #96d4fd;
+        
+    }
+   
+   
+h1{
+    padding: 0rem 1rem;
+    color: hsl(123, 73%, 31%);
+    font-size: 2rem;
+    }   
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #fbaed2;
+   }
+   
+nav a{
+    border-radius: 1.5rem;
+    padding: 0.6rem;
+    margin: 1rem;
+    animation-name: flash;
+    animation-duration: 7s;
+   }
+   
+   @keyframes flash{
+from {font-size: 1rem }
+to {font-size: 1.5rem}
+ }
+
+nav a:hover{
+     background-color: #db3884;
+
+}
+section{
+    border: 0.2rem;
+    font-size: 1rem;
+    padding: 0.2rem;
+} 
+
+
+h2{
+    font-size: 1.6rem;
+    color: #420435;
+} 
+h2:hover{
+    color: #bfebe7;
+    background: #3d4042;
+}
+
+#info a{
+    color: #d3b0f7;
+    font-size: 1.8rem;    
+    line-height:1.8rem;
+    border-radius: 0.5rem ;
+    background: #1d70b4;
+    padding: 0.7rem;
+    text-decoration: none;
+    
+    
+}
+
+#info p{
+   font-size: 1.3rem;
+   color: #260547;
+
+}
+
+#info1 ol{    
+    font-size: 1.25rem;
+    color: rgb(23, 8, 77);
+
+}
+.program div img{
+    width: 20%;
+    justify-content: space-evenly;
+    padding: 0.2rem;
+    margin: 0.3rem;
+}
+
+.twoview{
+    font-size: 1.25rem;
+    width: 95%; 
+    padding-right: 3rem;
+    margin-right: 0.5rem;
+    margin-left: 0.2rem;
+    padding-left: 0.2rem;
+   
+    
+} 
+
+.program-two div img{
+    width: 20%;
+    justify-content: space-evenly;
+    padding: 0.2rem;
+    margin: 0.3rem;
+}
+
+.fourview{
+    font-size: 1.5rem;
+}
+footer{
+    font-size: 1.4rem;
+}
+
+ }
+ @media(max-width: 500px){
+    body{
+        background-color: #96d4fd;
+       
+   }
+  
+  
+h1{
+   padding: 0rem 1rem;
+   color: hsl(273, 95%, 22%);
+   font-size: 1.4rem;
+   }   
+
+nav{
+   display: flex;
+   justify-content: center;
+   background-color: #fbaed2;
+  }
+  
+nav a{
+   border-radius: 1rem;
+   padding: 0.4rem;
+   margin: 0.6rem; 
+   font-size: 1.2rem;
+  }
+  
+  @keyframes flash{
+from {font-size: 1rem }
+to {font-size: 1.5rem}
+}
+
+nav a:hover{
+    background-color: #a5f1d4;
+    color: blue;
+
+}
+section{
+   border: 0.2rem;
+   font-size: 1rem;
+   padding: 0.2rem;
+} 
+
+
+h2{
+   font-size: 1.4rem;
+   color: #420435;
+} 
+h2:hover{
+   color: #bfebe7;
+   background: #3d4042;
+}
+
+#info a{
+   color: #d3b0f7;
+   font-size: 1.3rem;    
+   line-height:1.2rem;
+   border-radius: 0.5rem ;
+   background: #1d70b4;
+   padding: 0.7rem;
+   text-decoration: none;
+   
+   
+}
+
+#info p{
+  font-size: 1.2rem;
+  color: #1d0703;
+
+}
+
+#info1 ol{    
+   font-size: 1.15rem;
+   color: rgb(23, 8, 77);
+
+}
+.program div img{
+    width: 17%;
+      justify-content: space-around;
+}
+
+ .twoview{
+    font-size: 1.0rem;
+    width: 90%; 
+    display: flex;
+    justify-content: space-between;
+      
+} 
+
+.program-two div img{
+   width: 17%;
+   justify-content: space-evenly;
+   padding: 0.2rem;
+   margin: 0.3rem;
+}
+
+.fourview{
+   font-size: 1.1rem;
+}
+footer{
+   font-size: 1.25rem;
+}
 
  }
 
 
-
-
-    
