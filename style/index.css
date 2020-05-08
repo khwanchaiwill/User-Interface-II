@@ -449,7 +449,7 @@ footer{
   
   
 h1{     
-   font-size: 1.2rem;
+   font-size: 1.8rem;
    
    }   
 
@@ -484,7 +484,10 @@ section{
 h2{
    font-size: 1.4rem;
    color: #420435;
-} 
+   padding: 0rem;
+
+}
+
 h2:hover{
    color: #bfebe7;
    background: #3d4042;
@@ -503,13 +506,14 @@ h2:hover{
 }
 
 #info p{
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #1d0703;
+  border: none
 
 }
 
 #info1 ol{    
-   font-size: 0.9rem;
+   font-size: 0.8rem;
    color: rgb(23, 8, 77);
 
 }
@@ -526,7 +530,7 @@ h2:hover{
 
 
     .program-two div img{
-        width: 20%;
+        width: 17.5%;
         justify-content: space-evenly;
         padding: 0.2rem;
         margin: 0.3rem;
@@ -542,7 +546,7 @@ footer{
 }
 
 }
-@media (max-width: 800px){
+ @media (min-width: 800px){
     body{
              background-color: #72b8fd;
             
@@ -551,18 +555,13 @@ footer{
        
     h1{
         padding: 0rem 1rem;
-        color: hsl(123, 73%, 31%);
-        font-size: 1.8rem;
+        color: hsl(256, 73%, 31%);
+        font-size: 1.5rem;
         }   
-    
-    nav{
-        display: flex;
-        justify-content: center;
-        background-color: #fbaed2;
-       }
+
        
     nav a{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         border-radius: 1.3rem;
         padding: 0.6rem;
         margin: 1rem;
@@ -577,8 +576,10 @@ footer{
     
     nav a:hover{
          background-color: #db3884;
+         font-size: 1.4;
     
     }
+    
     section{
         border: 0.2rem;
         font-size: 1rem;
@@ -587,7 +588,7 @@ footer{
     
     
     h2{
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         color: #420435;
     } 
     h2:hover{
@@ -608,7 +609,7 @@ footer{
     }
     
     #info p{
-       font-size: 1.3rem;
+       font-size: 1.2rem;
        color: #260547;
     
     }
@@ -638,8 +639,7 @@ footer{
     
     }
     .program-two div img{
-        widht: 20%;
-        justify-content: space-between;
+        width: 20%;
     }
     
     .fourview{
@@ -649,13 +649,13 @@ footer{
     footer{
         font-size: 1.4rem;
     }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: gainsboro;
+    }
 } 
-
-body{
-    width: 100%;
-    font-size: 62.5%;    
-    background-color: #bfebe7;
-}
 
  header{
     width: 102.5%;
@@ -862,8 +862,8 @@ footer h4{
      flex-direction: column;
      justify-content:center;
      border-radius: 0.25rem;
-     background-color: #eecfcf;
+     background-color: #f0b9e2;
      text-decoration: none; 
  }
  
-     
+       
