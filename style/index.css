@@ -167,7 +167,7 @@ section.program{
      to {background-color: #4e0d4b;}
  }
  .twoview{
-    width: 95%;
+    width: 87%;
     font-size: 1.8rem;
     display: flex;
     justify-content: space-around;
@@ -192,7 +192,7 @@ section.program{
  }
 
 .fourview{
-    width: 99%;
+    width: 90%;
     font-size: 1.8rem;
     display: flex;
     justify-content: space-around;
