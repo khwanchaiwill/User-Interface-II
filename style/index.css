@@ -441,4 +441,418 @@ footer{
 
  }
 
+@media(min-width: 500px){
+    body{
+        background-color: #d6f7dd;
+       
+   }
+  
+  
+h1{     
+   font-size: 1.2rem;
+   
+   }   
 
+nav{
+   display: flex;
+   justify-content: flex-end;
+   background-color: #bfeaf5;
+   border-radius: 0.9rem;
+  }
+  
+nav a{
+  background-color: chartreuse;
+  }
+  
+  @keyframes flash{
+from {font-size: 1rem }
+to {font-size: 1.5rem}
+}
+
+nav a:hover{
+    background-color: #a5f1d4;
+    color: blue;
+
+}
+section{
+   border: 0.2rem;
+   font-size: 1rem;
+   padding: 0.2rem;
+} 
+
+
+h2{
+   font-size: 1.4rem;
+   color: #420435;
+} 
+h2:hover{
+   color: #bfebe7;
+   background: #3d4042;
+}
+
+#info a{
+   color: #d3b0f7;
+   font-size: 1.3rem;    
+   line-height:1.2rem;
+   border-radius: 0.5rem ;
+   background: #1d70b4;
+   padding: 0.7rem;
+   text-decoration: none;
+   
+   
+}
+
+#info p{
+  font-size: 1rem;
+  color: #1d0703;
+
+}
+
+#info1 ol{    
+   font-size: 0.9rem;
+   color: rgb(23, 8, 77);
+
+}
+.program div img{
+    width: 17%;
+    justify-content: space-around;
+}
+
+ .twoview{
+    font-size: 0.9rem;
+    width: 90%; 
+    
+} 
+
+
+    .program-two div img{
+        width: 20%;
+        justify-content: space-evenly;
+        padding: 0.2rem;
+        margin: 0.3rem;
+}
+
+.fourview{
+    width: 98%;
+   font-size: 0.9rem;
+   
+}
+footer{
+   font-size: 1.1rem;
+}
+
+}
+@media (max-width: 800px){
+    body{
+             background-color: #72b8fd;
+            
+        }
+       
+       
+    h1{
+        padding: 0rem 1rem;
+        color: hsl(123, 73%, 31%);
+        font-size: 1.8rem;
+        }   
+    
+    nav{
+        display: flex;
+        justify-content: center;
+        background-color: #fbaed2;
+       }
+       
+    nav a{
+        font-size: 1.5rem;
+        border-radius: 1.3rem;
+        padding: 0.6rem;
+        margin: 1rem;
+        background-color: rgb(201, 201, 236);
+     
+       }
+       
+       @keyframes flash{
+    from {font-size: 1rem }
+    to {font-size: 1.5rem}
+     }
+    
+    nav a:hover{
+         background-color: #db3884;
+    
+    }
+    section{
+        border: 0.2rem;
+        font-size: 1rem;
+        padding: 0.2rem;
+    } 
+    
+    
+    h2{
+        font-size: 1.6rem;
+        color: #420435;
+    } 
+    h2:hover{
+        color: #bfebe7;
+        background: #3d4042;
+    }
+    
+    #info a{
+        color: #d3b0f7;
+        font-size: 1.8rem;    
+        line-height:1.8rem;
+        border-radius: 0.5rem ;
+        background: #1d70b4;
+        padding: 0.7rem;
+        text-decoration: none;
+        
+        
+    }
+    
+    #info p{
+       font-size: 1.3rem;
+       color: #260547;
+    
+    }
+    
+    #info1 ol{    
+        font-size: 1.15rem;
+        color: rgb(67, 27, 212);
+    
+    }
+    .program div img{
+        width: 20%;
+        justify-content: space-evenly;
+     
+    }
+    
+     .twoview {
+        font-size: 1rem;
+        margin-left: 1rem;
+        margin-right: 2rem;
+        padding-left: 0.3rem;
+        padding-right: 0.2rem;
+        justify-content: space-between;
+        
+    } 
+    .twoview a{
+        margin: 0 2rem;
+    
+    }
+    .program-two div img{
+        widht: 20%;
+        justify-content: space-between;
+    }
+    
+    .fourview{
+        font-size: 1rem;
+    }
+
+    footer{
+        font-size: 1.4rem;
+    }
+} 
+
+body{
+    width: 100%;
+    font-size: 62.5%;    
+    background-color: #bfebe7;
+}
+
+ header{
+    width: 102.5%;
+    background-color: #3e9896; 
+    padding: 1.5rem;
+    
+} 
+
+h1{
+    padding: 0rem 3rem;
+    color: #5c0faa;
+    font-size: 2.3rem;
+    animation-name: h1;
+    animation-duration: 5s;
+}
+
+@keyframes h1{
+    from{color: #5c0faa;}
+    to {color: #f81212;}
+}
+
+h1:hover{
+    color:#fbb6f4;
+}
+
+nav{    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 25px;
+    background-color: #3e9896;   
+}
+
+nav a{
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
+    text-decoration: none;
+    background-color: #dad4d4;
+    animation-name: flash;
+    animation-duration: 7s;
+}
+
+@keyframes flash{
+from {font-size: 25px }
+to {font-size: 40px}
+}
+
+nav a:hover{
+    background-color: #f81212;
+    color: #c3c3c3;
+}
+
+section{
+    border: 15px;
+    display: flex;
+    flex-direction: row;  
+    font-size: 2.0rem;
+    color: #373535;
+} 
+#intro{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 25%;
+    height: 80%;
+    border: 2.5rem;
+    padding: 1.8rem;
+}
+
+ h2{
+    font-size: 2.5rem;
+    color: #3d4042;
+    line-height: 2;
+}
+
+h2:hover{
+    font-style: italic;
+    color: #260547;
+}
+#info ol{
+    font-size: 3rem;
+    text-decoration: none;
+    padding: 1rem;
+    background-color: #fcc4e0;
+    border-radius: 1rem;
+    margin: 2rem;
+
+}
+#info a:hover{
+    background-color: #9e2492;
+    color: #d3b0f7;
+}
+
+#info p{
+    width: 100%;
+    font-size: 1.6rem;
+    color: #1282d8;
+    padding: 0.75rem;
+    font-display: right;
+}
+
+#info1 li{    
+    flex: initial;
+    width: 100%;
+    font-size: 1.5rem;
+    color: #076d07;
+    
+}
+
+section.program{
+    width: 102.5%;
+    padding: 1.5rem;
+    background-color:#dad4d4 ;
+    font-size: 30px;
+    color: #021523;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    line-height: 1;  
+}
+
+.program div img{  
+    width: 18%;
+    border: 0.5rem solid #fbb6f4;
+    background-color: white;
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    padding: 1rem;
+    animation-name: roll;
+    animation-duration: 9s;
+}
+
+@keyframes roll{
+    from {background-color: white; }
+     to {background-color: #4e0d4b;}
+ }
+ .twoview{
+    width: 87%;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.7rem;   
+    margin-left: 0.45rem;
+    
+}
+
+ .program-two div img{  
+    width: 18%;
+    border: 0.5rem solid #fbb6f4;
+    background-color: white;
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 0.8rem;
+    animation-name:blink;
+    animation-duration: 11s;
+}
+ @keyframes blink{
+    from {background-color: white; }
+    to {background-color: #4e0d4b;}
+ }
+
+.fourview{
+    width: 90%;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: space-around;
+ 
+} 
+
+
+ section.program-two{
+    width: 102.5%;
+    padding: 1.5rem;
+    background-color:#dad4d4 ;
+    font-size: 30px;
+    color: #021523;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1;  
+     }
+
+footer{
+    width: 102.5%;
+    font-size: 1.8rem;
+    color: #021523;
+    text-align: center;
+    line-height: 2;
+    background-color: #3e9896;
+    padding: 1.5rem;
+    
+ }
+
+footer a{
+     border-radius: 0.3rem;
+     background-color: #dad4d4;
+     text-decoration: none; 
+ }
